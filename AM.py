@@ -2,7 +2,7 @@ import numpy as np
 
 
 def pyt(a, b):
-    return (np.sqrt(a**2+b**2))
+    return (np.sqrt(a*a+b*b))
 
 
 print(pyt(3, 4))
